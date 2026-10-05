@@ -113,21 +113,16 @@ Pick one decision from your own landscape and ask:
 ### 1. Clone and open the project
 
 ```bash
-git clone <repository-url>
-cd 2608_atlanta
+git clone https://github.com/meghna-sr/rpt1-2026-exercises.git
+
 ```
 
 Open the folder in your Jupyter environment (SAP Business Application Studio, VS Code, or JupyterLab).
 
 ### 2. Configure your credentials
 
-Copy the template and fill in the values from your SAP AI Core service key and deployments:
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env` and provide every value:
+For this workshop, we have pre-created an SAP AI Core service key and the deployments.
+The `.env` file is filled with the following credentials:
 
 | Variable | Used by | Description |
 |----------|---------|-------------|
@@ -139,7 +134,6 @@ Edit `.env` and provide every value:
 | `RPT1_DEPLOYMENT_URL` | 1A, 1B, 2 | SAP-RPT-1 deployment **base** URL (the notebooks append `/predict`) |
 | `ORCH_DEPLOYMENT_URL` | 2 | Gen AI Hub orchestration deployment URL |
 
-Your completed `.env` is git-ignored and must not be committed.
 
 ### 3. Install dependencies
 
