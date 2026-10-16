@@ -8,3 +8,4 @@ __pycache__/
 .vscode/
 architecture_playbook.md
 architecture_playbook.html
+.env
