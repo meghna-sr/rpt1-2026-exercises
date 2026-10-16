@@ -121,8 +121,7 @@ Open the folder in your Jupyter environment (SAP Business Application Studio, VS
 
 ### 2. Configure your credentials
 
-For this workshop, we have pre-created an SAP AI Core service key and the deployments.
-The `.env` file is filled with the following credentials:
+Copy the following environment variables into your `.env` file. Replace the values with the credentials from your SAP AI Core service key.
 
 | Variable | Used by | Description |
 |----------|---------|-------------|
